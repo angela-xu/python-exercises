@@ -1,19 +1,16 @@
 """
-This is a little formatter for words display.
+This is a simple formatter for text display, which formats text into several lines of the same length.
 """
 
-
-
-text = "I am an International student from Jfdsfkjsdjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjhfsdj is country and I am very pleased to meet you here dfsfdfsdsda ewrqer"
-
-n = 20
-
 def prettyprint(text, n):
-
+    
+    # text: text that needs to be formatted
+    # n: maximun number of characters that can be shown on each line
+    
     textList = text.split()
-    count = 0
-    results = [] 
-    line = ''
+    results = []   # final results of the text display
+    line = ''      # characters shown on each line
+    count = 0      # number of characters on each line
 
     for word in textList:
         if line == '':
@@ -37,8 +34,11 @@ def prettyprint(text, n):
            count = len(word)
                
     for line in results:
-        print('[' + line + ((n - len(line)) * ' ') + ']')
+        print('[' + line + (n - len(line)) * ' ' + ']')
     
     return results
+
+text = "I am an International student from Jfdsfkjsdjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjhfsdj is country and I am very pleased to meet you here dfsfdfsdsda ewrqer" 
+n = 20
 
 prettyprint(text, n)
