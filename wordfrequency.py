@@ -1,3 +1,9 @@
+"""
+This is a little function to display the most frequent words in a file.
+"""
+
+
+
 def wordfreq(filepath, n):
     file = open(filepath, "r+")
     dic = {}
