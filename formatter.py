@@ -1,3 +1,9 @@
+"""
+This is a little formatter for words display.
+"""
+
+
+
 text = "I am an International student from Jfdsfkjsdjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjhfsdj is country and I am very pleased to meet you here dfsfdfsdsda ewrqer"
 
 n = 20
