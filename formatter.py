@@ -38,7 +38,10 @@ def prettyprint(text, n):
     
     return results
 
-text = "I am an International student from Jfdsfkjsdjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjhfsdj is country and I am very pleased to meet you here dfsfdfsdsda ewrqer" 
+text = "I am an International student from Jfdsfkjsdjjjjjjjjjjjjjjjjj" \
+       "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj" \
+       "jjjjjjjjjhfsdj is country and I am very pleased to meet you"   \
+       "here dfsfdfsdsda ewrqer" 
 n = 20
 
 prettyprint(text, n)

@@ -14,7 +14,7 @@ def wordfreq(filepath, n):
         else:
             dic[word] += 1
 
-    sortedList = sorted(dic.items(), key=lambda x : x[1], reverse = True)   # sort the dictionary by values in descending order
+    sortedList = sorted(dic.items(), key=lambda x : x[1], reverse = True)   # sort dic by values in descending order
 
     for i in range(n):
         print('Word: ' +  sortedList[i][0] + '   Count:' + str(sortedList[i][1]))
