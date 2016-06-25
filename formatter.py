@@ -1,13 +1,13 @@
 def prettyprint(text, n):
-    """
-    This function is a simple text formatter.
-    It takes a string as argument text and an integer as argument n,
-    and it formats the string into pretty text on several lines of the same length. 
-    The principles for formatting are:
+    '''
+    text: string
+    n: integer
+    This function is a simple text formatter that formats the string into pretty text on several lines of the same length. 
+    Principles for formatting:
     1) number of characters on each line cannot exceed n
     2) if the length of a word is less than n, do not split it into different lines
        otherwise, split it into different lines
-    """
+    '''
     
     textList = text.split()
     results = []   # final results of the text display
