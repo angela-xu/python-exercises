@@ -1,8 +1,9 @@
 def wordfreq(filepath, n):
-    """
-    This function takes a file as argument filepath and an integer as argument n,
-    and it prints out the most n frequent words in a file.
-    """
+    '''
+    filepath: file
+    n: integer
+    This function prints out the most n frequent words in a file.
+    '''
     
     file = open(filepath, "r+")
     dic = {}
