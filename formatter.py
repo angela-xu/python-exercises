@@ -1,11 +1,13 @@
-"""
-This is a simple formatter for text display, which formats text into several lines of the same length.
-"""
-
 def prettyprint(text, n):
-    
-    # text: text that needs to be formatted
-    # n: maximun number of characters that can be shown on each line
+    """
+    This function is a simple text formatter.
+    It takes a string as argument text and an integer as argument n,
+    and it formats the string into pretty text on several lines of the same length. 
+    The principles for formatting are:
+    1) number of characters on each line cannot exceed n
+    2) if the length of a word is less than n, do not split it into different lines
+       otherwise, split it into different lines
+    """
     
     textList = text.split()
     results = []   # final results of the text display
