@@ -1,4 +1,4 @@
 This is my test file for my word frequency program
 This is my test file for my word frequency program
 My name is angela and I do not know your name
-I think maybe 10 word is too big
+I think maybe 10 word is too big.
